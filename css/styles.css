@@ -1,0 +1,52 @@
+
+
+body {
+  color: #2f;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  background:#f3dfcb;
+  z-index:2;
+  
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 1px;
+  padding: 1px;
+  width: 1000px;
+  height :1460px;
+  z-index:1;
+   position:absolute;
+   top:1px;
+
+}
+
+.backgroundborderleft{
+  width: 100px;
+    height: 100px;
+  top:0px;
+  left:-100px;
+  position:absolute;
+  z-index:-20;
+
+}
+
+.backgroundborderright{
+  
+  top:0px;
+  left:1686px;
+  position:absolute;
+  z-index:-10;
+
+}
+
+
+
+
+
+
+
+
