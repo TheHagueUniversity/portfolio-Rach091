@@ -1,0 +1,63 @@
+body {
+  color: #2f;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  background:#f3dfcb;
+  z-index:2;
+  width:1475px;
+  height:800px;
+}
+
+.backgroundproject{
+background-image: url("project background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-10;
+  width:100%;
+  height:100vh;
+
+}
+
+
+.square1 {
+  height: 380px;
+  width: 380px;
+  background-color: #FF9E82;
+transform: rotate(45deg);
+top:2000px;
+left:323px;
+position:absolute;
+  }
+
+   .square2 {
+  height: 380px;
+  width: 380px;
+  background-color: #FF9E82;
+transform: rotate(45deg);
+top:1650px;
+left:580px;
+position:absolute;
+  }
+
+   .square3 {
+  height: 380px;
+  width: 380px;
+  background-color: #FF9E82;
+transform: rotate(45deg);
+top:1938px;
+left:1012px;
+position:absolute;
+  }
+
+  .square4 {
+  height: 380px;
+  width: 380px;
+  background-color: #FF9E82;
+transform: rotate(45deg);
+top:1938px;
+left:1012px;
+position:absolute;
+  }

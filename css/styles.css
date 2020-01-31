@@ -9,39 +9,160 @@ body {
   line-height: 1.5;
   background:#f3dfcb;
   z-index:2;
+}
+
+.background1 {
+ background-image: url("background title-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-10;
+  width:100%;
+  height:100vh;
+}
+ 
+.background2 {
+  background:url("background 2-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-10;
+   width:1475px;
+  height:800px;
   
 }
 
-img {
-  border: 1px solid #ddd;
-  border-radius: 1px;
-  padding: 1px;
-  width: 1000px;
-  height :1460px;
+.aboutme{
+font-size: 15px;
+  top:500px;
+position:absolute;
+
+}
+.background3 {
+  background:url("background 3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-10;
+   width:100%;
+  height:100vh;
+
+}
+
+.square {
+  height: 380px;
+  width: 380px;
+  background-color: #FF9E82;
+transform: rotate(45deg);
+top:1670px;
+position:absolute;
+  }
+
+.squarelink{
+  height: 380px;
+  width: 380px;
+  background-color: #FF9E82;
+transform: rotate(45deg);
+top:1670px;
+position:absolute;
+}
+
+
+  .square2 {
+  height: 380px;
+  width: 380px;
+  background-color: #FF9E82;
+transform: rotate(45deg);
+top:2000px;
+left:323px;
+position:absolute;
+  }
+
+   .square3 {
+  height: 380px;
+  width: 380px;
+  background-color: #FF9E82;
+transform: rotate(45deg);
+top:1650px;
+left:580px;
+position:absolute;
+  }
+
+   .square4 {
+  height: 380px;
+  width: 380px;
+  background-color: #FF9E82;
+transform: rotate(45deg);
+top:1938px;
+left:1012px;
+position:absolute;
+  }
+
+.me{
+  width: 300px;
+  height :380px;
   z-index:1;
    position:absolute;
-   top:1px;
+   top:855px;
+   left:130px;
+}
+
+.chibi {
+  width: 380px;
+  height :400px;
+  z-index:1;
+   position:absolute;
+   top:290px;
+   left:100px;
 
 }
 
-.backgroundborderleft{
-  width: 100px;
-    height: 100px;
-  top:0px;
-  left:-100px;
+h1{
   position:absolute;
-  z-index:-20;
+   top:260px;
+   left:500px;
+   font-size: 80px;
+   z-index:1;
 
 }
 
-.backgroundborderright{
-  
-  top:0px;
-  left:1686px;
-  position:absolute;
-  z-index:-10;
+h2{
+position:absolute;
+   top:380px;
+   left:500px;
+   font-size: 35px;
+   z-index:1;
+}
+
+.projects{
+  font-size: 15px;
+  top:1500px;
+ right:1960px;
+position:absolute;
 
 }
+
+.education{
+  font-size: 15px;
+  top:1700px;
+ right:1700px;
+position:absolute;
+
+}
+.Workexperience{
+  font-size: 15px;
+  top:1500px;
+ right:1400px;
+position:absolute;
+
+}
+.Letsgetintouch{
+  font-size: 15px;
+  top:1700px;
+ right:982px;
+position:absolute;
+
+}
+
+
+
 
 
 
