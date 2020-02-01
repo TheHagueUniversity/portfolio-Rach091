@@ -8,13 +8,19 @@ body {
   background:#f3dfcb;
   z-index:2;
 }
-
-.backgroundwp{
-
-	background-image: url("backgroundwp.png");
+.backgroundphoto{
+background-image: url("Photography.png");
   background-repeat: no-repeat;
   background-size: cover;
   z-index:-10;
   width:100%;
   height:100vh;
+}
+
+.picture1{
+	top:335px;
+left:400px;
+position:absolute;
+width:354px;
+height:265.5px;
 }

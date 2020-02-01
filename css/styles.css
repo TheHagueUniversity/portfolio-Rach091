@@ -47,12 +47,12 @@ position:absolute;
 }
 
 .square {
-  height: 400px;
-  width: 400px;
+  height: 380px;
+  width: 380px;
   background-color: #FF9E82;
 transform: rotate(45deg);
-top:1670px;
-left:40px;
+top:1650px;
+left:100px;
 position:absolute;
   }
 
@@ -76,32 +76,32 @@ position:absolute;*/
 
 
   .square2 {
-  height: 400px;
-  width: 400px;
+  height: 380px;
+  width: 380px;
   background-color: #FF9E82;
-transform: rotate(45deg);
-top:2000px;
-left:330px;
+transform: rotate(315deg);
+top:1932px;
+left:400px;
 position:absolute;
   }
 
    .square3 {
-  height: 400px;
-  width: 400px;
+  height: 380px;
+  width: 380px;
   background-color: #FF9E82;
 transform: rotate(45deg);
-top:1650px;
-left:700px;
+top:1646px;
+left:690px;
 position:absolute;
   }
 
    .square4 {
-  height: 400px;
-  width: 400px;
+  height: 380px;
+  width: 380px;
   background-color: #FF9E82;
-transform: rotate(45deg);
-top:1938px;
-left:1012px;
+transform: rotate(315deg);
+top:1932px;
+left:990px;
 position:absolute;
   }
 
@@ -142,33 +142,24 @@ position:absolute;
 }
 
 .education{
-  font-size: 15px;
-  top:1700px;
- right:1700px;
-position:absolute;
+  font-size:50px;
 
 }
 .Workexperience{
-  font-size: 15px;
-  top:1500px;
- right:1400px;
-position:absolute;
+  font-size:50px;
 
 }
-.contact{
-  top:300px;
- right:982px;
-position:absolute;
+.Contact{
+  
+font-size:50px;
+}
+
+.projects{
+ font-size:50px;
 
 }
 
-.project{
-  top:1700px;
- right:982px;
-position:absolute;
-z-index:10;
 
-}
 
 
 
