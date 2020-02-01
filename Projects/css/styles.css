@@ -18,7 +18,6 @@ background-image: url("project background.png");
   z-index:-10;
   width:100%;
   height:100vh;
-
 }
 
 
@@ -27,8 +26,7 @@ background-image: url("project background.png");
   width: 380px;
   background-color: #FF9E82;
 transform: rotate(45deg);
-top:2000px;
-left:323px;
+top:80px;
 position:absolute;
   }
 
@@ -37,8 +35,8 @@ position:absolute;
   width: 380px;
   background-color: #FF9E82;
 transform: rotate(45deg);
-top:1650px;
-left:580px;
+top:350px;
+left:300px;
 position:absolute;
   }
 
@@ -47,7 +45,7 @@ position:absolute;
   width: 380px;
   background-color: #FF9E82;
 transform: rotate(45deg);
-top:1938px;
+top:100px;
 left:1012px;
 position:absolute;
   }

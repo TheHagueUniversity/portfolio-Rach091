@@ -47,16 +47,17 @@ position:absolute;
 }
 
 .square {
-  height: 380px;
-  width: 380px;
+  height: 400px;
+  width: 400px;
   background-color: #FF9E82;
 transform: rotate(45deg);
 top:1670px;
+left:40px;
 position:absolute;
   }
 
 .squarelink{
-  height: 380px;
+ /* height: 380px;
   width: 380px;
   background-color: #FF9E82;
 transform: rotate(45deg);
@@ -64,30 +65,39 @@ top:1670px;
 position:absolute;
 }
 
-
-  .square2 {
+.square2link{
   height: 380px;
   width: 380px;
   background-color: #FF9E82;
 transform: rotate(45deg);
+top:1670px;
+position:absolute;*/
+}
+
+
+  .square2 {
+  height: 400px;
+  width: 400px;
+  background-color: #FF9E82;
+transform: rotate(45deg);
 top:2000px;
-left:323px;
+left:330px;
 position:absolute;
   }
 
    .square3 {
-  height: 380px;
-  width: 380px;
+  height: 400px;
+  width: 400px;
   background-color: #FF9E82;
 transform: rotate(45deg);
 top:1650px;
-left:580px;
+left:700px;
 position:absolute;
   }
 
    .square4 {
-  height: 380px;
-  width: 380px;
+  height: 400px;
+  width: 400px;
   background-color: #FF9E82;
 transform: rotate(45deg);
 top:1938px;
@@ -131,14 +141,6 @@ position:absolute;
    z-index:1;
 }
 
-.projects{
-  font-size: 15px;
-  top:1500px;
- right:1960px;
-position:absolute;
-
-}
-
 .education{
   font-size: 15px;
   top:1700px;
@@ -153,11 +155,18 @@ position:absolute;
 position:absolute;
 
 }
-.Letsgetintouch{
-  font-size: 15px;
+.contact{
+  top:300px;
+ right:982px;
+position:absolute;
+
+}
+
+.project{
   top:1700px;
  right:982px;
 position:absolute;
+z-index:10;
 
 }
 
