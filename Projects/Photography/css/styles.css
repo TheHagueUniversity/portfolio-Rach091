@@ -17,10 +17,34 @@ background-image: url("Photography.png");
   height:100vh;
 }
 
-.picture1{
-	top:335px;
-left:400px;
+.picture{	
 position:absolute;
-width:354px;
-height:265.5px;
+transform: rotate(15deg);
+left:160px;
+top:250px;
+}
+
+.square {
+  height: 245px;
+  width: 325px;
+  background-color: #F3dfcb;
+transform: rotate(15deg);
+top:110px;
+left:165px;
+position:absolute;
+  }
+
+ .text{
+ 	font-size: 25px;
+ 	color:112046;
+ 	top:630px;
+left:60px;
+position:absolute;
+ }
+
+ .picture2{	
+position:absolute;
+transform: rotate(358deg);
+left:580px;
+top:285px;
 }
