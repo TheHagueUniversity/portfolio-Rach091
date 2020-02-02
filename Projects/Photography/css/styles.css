@@ -34,6 +34,16 @@ left:165px;
 position:absolute;
   }
 
+  .square1 {
+  height: 310px;
+  width: 330px;
+  background-color: #F3dfcb;
+transform: rotate(345deg);
+top:86px;
+left:1010px;
+position:absolute;
+  }
+
  .text{
  	font-size: 25px;
  	color:112046;
@@ -47,4 +57,12 @@ position:absolute;
 transform: rotate(358deg);
 left:580px;
 top:285px;
+}
+
+.picture3{	
+
+position:absolute;
+transform: rotate(345deg);
+left:1016px;
+top:80px;
 }
