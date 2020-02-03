@@ -18,3 +18,102 @@ body {
   width:100%;
   height:100vh;
 }
+
+.kbs{ 
+  font-size: 30px;
+  top:100px;
+left: 750px;
+position:absolute;
+color: #f6a288;
+ }
+
+ .position{ 
+  font-size: 20px;
+  top:160px;
+left: 750px;
+position:absolute;
+color: #f6a288;
+ }
+
+ .year{ 
+  font-size: 20px;
+  top:230px;
+left: 750px;
+position:absolute;
+color: #f6a288;
+ }
+
+.seikou{ 
+  font-size: 30px;
+  top:280px;
+left: 750px;
+position:absolute;
+color: #f6a288;
+ }
+
+.position2{ 
+  font-size: 20px;
+  top:340px;
+left: 750px;
+position:absolute;
+color: #f6a288;
+ }
+
+ .year2{ 
+  font-size: 20px;
+  top:410px;
+left: 750px;
+position:absolute;
+color: #f6a288;
+ }
+
+ .liv{ 
+  font-size: 30px;
+  top:460px;
+left: 750px;
+position:absolute;
+color: #f6a288;
+ }
+
+ .position3{ 
+  font-size: 20px;
+  top:520px;
+left: 750px;
+position:absolute;
+color: #f6a288;
+ }
+
+ .year3{ 
+  font-size: 20px;
+  top:600px;
+left: 750px;
+position:absolute;
+color: #f6a288;
+ }
+
+ .logocom{ 
+  font-size: 30px;
+  top:630px;
+left: 750px;
+position:absolute;
+color: #f6a288;
+ }
+
+.position4{ 
+  font-size: 20px;
+  top:680px;
+left: 750px;
+position:absolute;
+color: #f6a288;
+ }
+
+
+ .year4{ 
+  font-size: 20px;
+  top:730px;
+left: 750px;
+position:absolute;
+color: #f6a288;
+ }
+
+

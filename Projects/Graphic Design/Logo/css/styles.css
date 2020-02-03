@@ -10,3 +10,119 @@ body {
   width:1475px;
   height:800px;
 }
+
+.background1 {
+ background-image: url("background title-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-10;
+  width:100%;
+  height:100vh;
+}
+ 
+ .livi {
+   position:relative;
+   top:500px;
+   left:1000px;
+}
+
+.livititle{
+  font-size: 30px;
+  top:600px;
+left: 600px;
+position:absolute;
+color: #f6a288;
+}
+
+.livicontent{
+  font-size: 20px;
+  top:1000px;
+left: 400px;
+position:absolute;
+color: #f6a288;
+}
+
+
+.laurensiacup {
+   position:absolute;
+   top:1200px;
+   left:800px;
+   transform: rotate(90deg);
+}
+
+.lautitle{
+  font-size: 30px;
+  top:1200px;
+left: 400px;
+position:absolute;
+color: #f6a288;
+}
+
+.laucontent{
+  font-size: 20px;
+  top:400px;
+left: 400px;
+position:absolute;
+color: #f6a288;
+}
+
+
+.laurensiacup2 {
+   position:absolute;
+   top:800px;
+   left:100px;
+}
+
+.chicken {
+   position:relative;
+   top:2000px;
+   left:100px;
+}
+
+.chickentitle{
+  font-size: 30px;
+  top:30px;
+left: 1000px;
+position:absolute;
+color: #f6a288;
+}
+
+.contentchicken{
+  font-size: 20px;
+  top:1500px;
+left: 400px;
+position:absolute;
+color: #f6a288;
+}
+
+
+.pastry {
+   position:absolute;
+   top:100px;
+   left:100px;
+}
+
+.pastrytitle{
+  font-size: 30px;
+  top:30px;
+left: 400px;
+position:absolute;
+color: #f6a288;
+}
+
+.contentpastry{
+  font-size: 20px;
+  top:50px;
+left: 400px;
+position:absolute;
+color: #f6a288;
+}
+
+.square {
+height: 380px;
+  width: 380px;
+  background-color: #2d4a91;
+top:1650px;
+left:100px;
+position:absolute;
+} 

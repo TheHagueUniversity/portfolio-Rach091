@@ -9,6 +9,27 @@ body {
   z-index:2;
 }
 
+.UXMENU{
+background-image: url("backgroundwhite.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-10;
+  width:100%;
+  height:100vh;
+}
+
+.merain{
+  top:100px;
+left: 100px;
+position:absolute;
+}
+
+.gamemaker{
+   top:50px;
+left: 800px;
+position:absolute;
+}
+
 .backgroundUX{
 background-image: url("backgroundwp.png");
   background-repeat: no-repeat;
@@ -29,7 +50,7 @@ position:absolute;
 
 .Whatthis{
   font-size:50px;
-  color:#f6a288;
+  color:#112046;
   top:1000px;
 left:580px;
 position:absolute;
@@ -75,7 +96,7 @@ position:absolute;
 animation animation-duration: 50s;
 animation-iteration-count: infinite;
 background-repeat: repeat;
-	top:110px;
+	top:2800px;
 left: 100px;
 position:absolute;
 
@@ -85,7 +106,7 @@ position:absolute;
 animation animation-duration: 50s;
 animation-iteration-count: infinite;
 background-repeat: repeat;
-	top:110px;
+	top:2800px;
 left: 500px;
 position:absolute;
 
@@ -103,17 +124,43 @@ background-image: url("background 3.png");
 .Utopia{
   font-size:100px;
   color:#f3dfcb;
-  top:2500px;
+  top:5000px;
 left:900px;
 position:absolute;
 }
 
 .pic1{
-top:2700px;
+top:4300px;
 left: 500px;
 position:absolute;
 
 }
+
+.dw{
+top:4000px;
+left: 500px;
+position:absolute;
+
+}
+
+.lol{
+  font-size:100px;
+  color:#f3dfcb;
+  top:3300px;
+left:900px;
+position:absolute;
+}
+
+.contentlol{
+  font-size:18px;
+  color:#f3dfcb;
+  top:3600px;
+left:200px;
+position:absolute;
+text-align: left;
+}
+
+
 
 .backgrounddw{
 background-image: url("background 2-1.png");

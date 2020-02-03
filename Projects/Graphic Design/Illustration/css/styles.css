@@ -10,3 +10,24 @@ body {
   width:1475px;
   height:800px;
 }
+
+.coffee {
+   position:absolute;
+   top:100px;
+   left:500px;
+}
+.girl {
+   position:absolute;
+   top:600px;
+   left:100px;
+}
+.cny {
+   position:absolute;
+   top:800px;
+   left:500px;
+}
+.lamp {
+   position:absolute;
+   top:100px;
+   left:100px;
+}
