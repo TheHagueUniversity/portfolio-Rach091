@@ -24,6 +24,14 @@ left: 100px;
 position:absolute;
 }
 
+.back{
+  font-size:20px;
+  top:800px;
+ right:150px;
+position:absolute;
+color:#112046;
+}
+
 .gamemaker{
    top:50px;
 left: 800px;

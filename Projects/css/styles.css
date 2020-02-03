@@ -48,7 +48,13 @@ transform: rotate(45deg);
 top:1670px;
 position:absolute;*/
 }
-
+.back{
+  font-size:20px;
+  top:800px;
+ right:150px;
+position:absolute;
+color:#2d4a91;
+}
  .square2 {
   height: 380px;
   width: 380px;

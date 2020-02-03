@@ -57,6 +57,13 @@ left:400px;
 position:absolute;
   }
 
+.back{
+  font-size:20px;
+  top:800px;
+ right:150px;
+position:absolute;
+color:#f3dfcb;
+}
   .logo{
   font-size:50px;
 }
