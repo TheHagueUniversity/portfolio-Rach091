@@ -31,43 +31,51 @@ body {
   
 }
 
+.linkcv{
+  font-size:30px;
+  top:1480px;
+ right:650px;
+position:absolute;
+color:#f3dfcb;
+}
+
 .aboutme{
 font-size: 15px;
   top:300px;
-  left:500px;
+  left:380px;
 position:absolute;
 
 }
 
 .MyPerks{
 font-size: 15px;
-  top:250px;
-  right:10px;
+  top:350px;
+  left:600px;
 position:absolute;
 }
 .listener{
 font-size: 15px;
-  top:300px;
-  right:-200px;
+  top:500px;
+  left:600px;
 position:absolute;
 }
 .curious{
 font-size: 15px;
-  top:100px;
-  left:1px;
+  top:670px;
+  left:600px;
 position:absolute;
 }
 .Eye{
 font-size: 15px;
-  top:300px;
-  left:1px;
+  top:890px;
+  left:600px;
 position:absolute;
 }
 
 .MyAbilities{
 font-size: 15px;
-  top:500px;
-  right:100px;
+  top:350px;
+  left:800px;
 position:absolute;
 }
 
@@ -80,15 +88,15 @@ position:absolute;
 
 .Bilingual{
 font-size: 15px;
-  top:600px;
-  left:1000px;
+  top:520px;
+  left:800px;
 position:absolute;
 }
 
 .software{
 font-size: 15px;
-  top:600px;
-  left:1px;
+  top:750px;
+  left:800px;
 position:absolute;
 }
 
@@ -107,7 +115,7 @@ position:absolute;
   width: 380px;
   background-color: #FF9E82;
 transform: rotate(45deg);
-top:1650px;
+top:1790px;
 left:100px;
 position:absolute;
   }
@@ -136,7 +144,7 @@ position:absolute;*/
   width: 380px;
   background-color: #FF9E82;
 transform: rotate(315deg);
-top:1932px;
+top:2100px;
 left:400px;
 position:absolute;
   }
@@ -146,7 +154,7 @@ position:absolute;
   width: 380px;
   background-color: #FF9E82;
 transform: rotate(45deg);
-top:1646px;
+top:1800px;
 left:690px;
 position:absolute;
   }
@@ -156,7 +164,7 @@ position:absolute;
   width: 380px;
   background-color: #FF9E82;
 transform: rotate(315deg);
-top:1932px;
+top:2100px;
 left:990px;
 position:absolute;
   }
@@ -166,7 +174,7 @@ position:absolute;
   height :380px;
   z-index:1;
    position:absolute;
-   top:800px;
+   top:1000px;
    left:600px;
 }
 
