@@ -51,7 +51,7 @@ background-image: url("backgroundwp.png");
 animation animation-duration: 50s;
 animation-iteration-count: infinite;
 background-repeat: repeat;
-	top:1700px;
+	top:2750px;
 left: 500px;
 position:absolute;
 }
@@ -95,7 +95,7 @@ background-image: url("backgroundwhite.png");
 .title{
   font-size:50px;
   color:#2d4a91;
-  top:110px;
+  top:1780px;
 left:900px;
 position:absolute;
 }
@@ -104,7 +104,7 @@ position:absolute;
 animation animation-duration: 50s;
 animation-iteration-count: infinite;
 background-repeat: repeat;
-	top:2800px;
+	top:1780px;
 left: 100px;
 position:absolute;
 
@@ -114,7 +114,7 @@ position:absolute;
 animation animation-duration: 50s;
 animation-iteration-count: infinite;
 background-repeat: repeat;
-	top:2800px;
+	top:1780px;
 left: 500px;
 position:absolute;
 

@@ -12,7 +12,16 @@ body {
 }
 
 .background1 {
- background-image: url("background title-1.png");
+ background-image: url("background 3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-10;
+  width:100%;
+  height:100vh;
+}
+
+.background2 {
+ background-image: url("backgroundwp.png");
   background-repeat: no-repeat;
   background-size: cover;
   z-index:-10;
@@ -45,23 +54,23 @@ color: #f6a288;
 
 .laurensiacup {
    position:absolute;
-   top:1200px;
+   top:360px;
    left:800px;
    transform: rotate(90deg);
 }
 
 .lautitle{
   font-size: 30px;
-  top:1200px;
-left: 400px;
+  top:280px;
+left: 200px;
 position:absolute;
 color: #f6a288;
 }
 
 .laucontent{
-  font-size: 20px;
-  top:400px;
-left: 400px;
+  font-size: 15px;
+  top:350px;
+left: 100px;
 position:absolute;
 color: #f6a288;
 }
@@ -69,8 +78,8 @@ color: #f6a288;
 
 .laurensiacup2 {
    position:absolute;
-   top:800px;
-   left:100px;
+   top:350px;
+   left:1050px;
 }
 
 .chicken {
@@ -98,22 +107,22 @@ color: #f6a288;
 
 .pastry {
    position:absolute;
-   top:100px;
+   top:10px;
    left:100px;
 }
 
 .pastrytitle{
   font-size: 30px;
   top:30px;
-left: 400px;
+left: 500px;
 position:absolute;
 color: #f6a288;
 }
 
 .contentpastry{
-  font-size: 20px;
-  top:50px;
-left: 400px;
+  font-size: 15px;
+  top:80px;
+left: 500px;
 position:absolute;
 color: #f6a288;
 }
