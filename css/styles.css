@@ -1,7 +1,11 @@
-<! –– cover page––>
+/* cover */
 html{scroll-behavior: smooth;}
 *{box-sizing: inherit;}
 
+body{
+  padding:0;
+  margin:0;
+}
 
 header {
  background:url("bkg1.png");
@@ -32,7 +36,23 @@ h2{
     width:29%;
 }
 
-<! –– about me––>
+.grid-container{
+  display: grid;
+  color:red;
+  grid-template-columns: repeat(3fr);
+  margin: 0;
+  padding: 0;
+}
+
+.item1{
+margin-left:140px;
+margin-top:-300px;
+  padding: 10px 0;
+  font-size: 30px;
+  color:black;
+}
+
+/* about me */
 
 .background2 {
   background:url("bkg2.png");
@@ -41,36 +61,33 @@ h2{
   z-index:-10;
    width:100%;
   height:100vh;
+  padding:0px;
 }
-
-<! –– about me - My perks––>
 
 .introduction{
   position:relative;
   padding-top: 450px;
 }
 
-.item1{
-grid-column-start:1;
-grid-column-end:10;
-grid-row-start:1;
-grid-row-end:15;
-background-color:red;
+.item2{
+margin-left:550px;
+margin-top:-280px;
+  padding: 10px 0;
 }
 
 .me{
   position:relative;
-  width:20%;
+  width:30%;
 }
 
-.item2{
-	grid-column-start:10;
-grid-column-end:20;
+.item3{
+	
 
 }
 
 h2{
 padding:1px;
+margin-left:600px;
   position:relative;
 }
 
@@ -106,7 +123,6 @@ grid-column-end:30;
 }
 
 
-<! –– about me - My abilities––>
 .item4{
 
 }
@@ -140,7 +156,7 @@ grid-column-end:30;
   width:20%;
 }
 
-<! –– mainmeu––>
+/* main menu */
 
 .background3 {
   background:url("bkg3.png");

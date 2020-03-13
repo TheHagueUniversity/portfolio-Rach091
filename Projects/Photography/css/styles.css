@@ -1,13 +1,8 @@
-body {
-  color: #2f;
-  margin: 0;
-  padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
-  background:#f3dfcb;
-  z-index:2;
-}
+html{scroll-behavior: smooth;}
+*{box-sizing: inherit;}
+
+header{}
+
 .backgroundphoto{
 background-image: url("Photography.png");
   background-repeat: no-repeat;
@@ -17,12 +12,35 @@ background-image: url("Photography.png");
   height:100vh;
 }
 
+<! ––  Pictures ––>
+
 .picture{	
-position:absolute;
+position:relative;
 transform: rotate(15deg);
-left:160px;
-top:250px;
+width:30%;
+margin-top:300px;
+margin-left:100px;
 }
+
+.picture2{  
+position:relative;
+transform: rotate(358deg);
+width:37%;
+padding-top:200px;
+padding-left:600px;
+}
+
+.picture3{  
+
+position:relative;
+transform: rotate(345deg);
+width:68%;
+padding-top:400px;
+padding-left:600px;
+}
+
+<! ––  Picture background ––>
+
 
 .square {
   height: 245px;
@@ -44,28 +62,16 @@ left:1010px;
 position:absolute;
   }
 
- .text{
- 	font-size: 25px;
- 	color:112046;
- 	top:630px;
+
+ <! ––  texts ––>
+
+.text{
+  font-size: 25px;
+  color:112046;
+  top:630px;
 left:60px;
 position:absolute;
  }
-
- .picture2{	
-position:absolute;
-transform: rotate(358deg);
-left:580px;
-top:285px;
-}
-
-.picture3{	
-
-position:absolute;
-transform: rotate(345deg);
-left:1016px;
-top:80px;
-}
 
 .back{
   font-size:20px;
