@@ -1,13 +1,9 @@
 
-body {
-  color: #2f;
-  margin: 0;
-  padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
-  background:#f3dfcb;
-  z-index:2;
+html{scroll-behavior: smooth;}
+*{box-sizing: inherit;}
+
+header{
+
 }
 
 .backgroundcontact {
@@ -22,37 +18,37 @@ body {
 
 .contact{
 	font-size:80px;
-  top:200px;
- right:650px;
-position:absolute;
+position:relative;
 z-index:10;
 color:#f6a288;
+padding-top:200px;
+padding-left:700px;
 
 }
 
 .email{
 font-size:40px;
-  top:400px;
- right:300px;
-position:absolute;
+  position:relative;
 z-index:10;
 color:#f6a288;
+margin-top:80px;
+padding-left:700px;
 
 }
 
 .instagram{
   font-size:40px;
-  top:500px;
- right:440px;
-position:absolute;
+  position:relative;
+  margin-top:40px;
+padding-left:700px;
 z-index:10;
 color:#f6a288;
 }
 
 .back{
   font-size:20px;
-  top:800px;
- right:650px;
-position:absolute;
+position:relative;
+  margin-top:40px;
+padding-left:700px;
 color:#f3dfcb;
 }

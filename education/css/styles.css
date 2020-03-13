@@ -1,14 +1,9 @@
-body {
-  color: #2f;
-  margin: 0;
-  padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
-  background:#f3dfcb;
-  z-index:2;
-  width:1475px;
-  height:800px;
+
+html{scroll-behavior: smooth;}
+*{box-sizing: inherit;}
+
+header{
+
 }
 
 .backgroundeducation{
@@ -23,39 +18,64 @@ body {
 
 .Education{
   font-size:80px;
-  top:150px;
- right:970px;
-position:absolute;
+position:relative;
 z-index:10;
 color:#112046;
+padding-top:120px;
+padding-left:100px;
 
+}
+
+.seniorhigh{
+  position:relative;
+  margin-top:-20px;
+padding-left:100px;
+font-size:35px;
+}
+
+.slhs{
+  position:relative;
+margin-top:-45px;
+padding-left:100px;
+font-size:25px;
 }
 
 .bachelor{
   font-size:30px;
-  top:340px;
- right:680px;
-position:absolute;
+position:relative;
 z-index:10;
 color:#112046;
-
+padding-top:10px;
+padding-left:100px;
 }
 
+.uxd{
+  position:relative;
+margin-top:-40px;
+padding-left:100px;
+font-size:25px;
+}
 
 .extra{
   font-size:30px;
-  top:530px;
- right:830px;
-position:absolute;
+position:relative;
 z-index:10;
 color:#112046;
+padding-top:10px;
+padding-left:100px;
+}
 
+.graphic{
+   position:relative;
+margin-top:-40px;
+padding-left:100px;
+font-size:25px;
 }
 
 .back{
   font-size:20px;
-  top:800px;
- right:650px;
-position:absolute;
+position:relative;
 color:#f3dfcb;
+margin-top:-20px;
+padding-left:100px;
 }
