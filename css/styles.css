@@ -23,7 +23,7 @@ padding-top:400px;
 padding-left:600px;
 }
 
-h2{
+.atmyport{
 	position:relative;
    font-size: 35px;
    margin-left:600px;
@@ -32,14 +32,14 @@ h2{
 .chibi{
   position:relative;
     margin-left:140px;
-    margin-top:-400px;
+    margin-top:-600px;
     width:29%;
 }
 
 .grid-container{
   display: grid;
   color:red;
-  grid-template-columns: repeat(3fr);
+  grid-template-columns: repeat(2fr);
   margin: 0;
   padding: 0;
 }
@@ -80,80 +80,88 @@ margin-top:-280px;
   width:30%;
 }
 
-.item3{
-	
-
+.perks{
+  position:relative;
+  padding-top: 650px;
 }
+
 
 h2{
-padding:1px;
-margin-left:600px;
+padding-left:1300px;
   position:relative;
 }
+.grid-container{
+  display: grid;
+  color:red;
+  grid-template-rows: repeat(3fr);
+  margin: 0;
+  padding: 0;
+}
 
+.item3{
+margin-left:1050px;
+margin-top:-1180px;
+  padding: 10px 0;
+}
 .ear{
   position:relative;
-  width:20%;
+  width:40%;
 }
 .perks1{
   position:relative;
-  width:20%;
+  width:40%;
 }
 
 .eye{
   position:relative;
-  width:20%;
+  width:40%;
 }
 .perks2{
   position:relative;
-  width:20%;
+  width:40%;
 }
 .stairs{
   position:relative;
-  width:20%;
+  width:40%;
 }
 .perks3{
   position:relative;
-  width:20%;
+  width:40%;
 }
-
-.item3{
-grid-column-start:20;
-grid-column-end:30;
-}
-
 
 .item4{
-
+margin-left:1350px;
+margin-top:-280px;
+  padding: 10px 0;
 }
 .doodle{
   position:relative;
-  width:20%;
+  width:50%;
 }
 
 .pen{
   position:relative;
-  width:20%;
+  width:50%;
 }
 
 .language{
   position:relative;
-  width:20%;
+  width:50%;
 }
 
 .bilingual{
   position:relative;
-  width:20%;
+  width:50%;
 }
 
 .adobe{
   position:relative;
-  width:20%;
+  width:50%;
 }
 
 .adobeicon{
   position:relative;
-  width:20%;
+  width:50%;
 }
 
 /* main menu */
