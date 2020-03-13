@@ -1,7 +1,9 @@
 html{scroll-behavior: smooth;}
 *{box-sizing: inherit;}
 
-header{}
+header{
+  margin:0;
+}
 
 .backgroundphoto{
 background-image: url("Photography.png");
@@ -12,21 +14,19 @@ background-image: url("Photography.png");
   height:100vh;
 }
 
-<! ––  Pictures ––>
-
 .picture{	
 position:relative;
-transform: rotate(15deg);
-width:30%;
-margin-top:300px;
-margin-left:100px;
+transform: rotate(0deg);
+width:100%;
+margin-top:20px;
+margin-left:40px;
 }
 
 .picture2{  
 position:relative;
 transform: rotate(358deg);
-width:37%;
-padding-top:200px;
+width:23%;
+padding-top:30px;
 padding-left:600px;
 }
 
@@ -37,9 +37,10 @@ transform: rotate(345deg);
 width:68%;
 padding-top:400px;
 padding-left:600px;
+margin:0;
 }
 
-<! ––  Picture background ––>
+
 
 
 .square {
@@ -47,9 +48,9 @@ padding-left:600px;
   width: 325px;
   background-color: #F3dfcb;
 transform: rotate(15deg);
-top:110px;
-left:165px;
-position:absolute;
+padding-top:100px;
+margin-left:250px;
+position:relative;
   }
 
   .square1 {
@@ -63,7 +64,7 @@ position:absolute;
   }
 
 
- <! ––  texts ––>
+
 
 .text{
   font-size: 25px;
