@@ -1,12 +1,8 @@
+html{scroll-behavior: smooth;}
+*{box-sizing: inherit;}
+
 body {
-  color: #2f;
-  margin: 0;
-  padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
-  background:#f3dfcb;
-  z-index:2;
+  margin:0;
 }
 
 .backgroundgd{
@@ -59,7 +55,7 @@ position:absolute;
 
 .back{
   font-size:20px;
-  top:800px;
+  top:700px;
  right:150px;
 position:absolute;
 color:#f3dfcb;

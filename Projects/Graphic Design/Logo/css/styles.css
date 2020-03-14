@@ -1,18 +1,11 @@
 body {
-  color: #2f;
+  
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
-  background:#f3dfcb;
-  z-index:2;
-  width:1475px;
-  height:800px;
 }
 
 .background1 {
- background-image: url("background 3.png");
+ background-image: url("background1.png");
   background-repeat: no-repeat;
   background-size: cover;
   z-index:-10;
@@ -31,100 +24,105 @@ body {
  
  .livi {
    position:relative;
-   top:500px;
-   left:1000px;
+   margin-left:100px;
+   margin-top:120px;
+   width:20%;
 }
 
 .livititle{
   font-size: 30px;
-  top:600px;
-left: 600px;
-position:absolute;
+   position:relative;
+   margin-left:100px;
+   margin-top:20px;
 color: #f6a288;
 }
 
 .livicontent{
   font-size: 20px;
-  top:1000px;
-left: 400px;
-position:absolute;
+  position:relative;
+   margin-left:100px;
+   margin-top:50px;
 color: #f6a288;
 }
 
 
 .laurensiacup {
-   position:absolute;
-   top:360px;
-   left:800px;
+  position:relative;
+   margin-left:300px;
+   padding-top:100px;
    transform: rotate(90deg);
+    width:20%;
 }
 
 .lautitle{
   font-size: 30px;
-  top:280px;
-left: 200px;
-position:absolute;
+  position:relative;
+   margin-left:300px;
+   padding-top:100px;
 color: #f6a288;
 }
 
 .laucontent{
   font-size: 15px;
-  top:350px;
-left: 100px;
-position:absolute;
+  position:relative;
+   margin-left:300px;
+   padding-top:10px;
 color: #f6a288;
 }
 
 
 .laurensiacup2 {
-   position:absolute;
-   top:350px;
-   left:1050px;
+   position:relative;
+   margin-left:100px;
+   margin-top:50px;
+    width:20%;
 }
 
 .chicken {
    position:relative;
-   top:2000px;
-   left:100px;
+   margin-left:140px;
+    margin-top:50px;
+    width:15%;
 }
 
 .chickentitle{
   font-size: 30px;
-  top:30px;
-left: 1000px;
-position:absolute;
-color: #f6a288;
+  position:relative;
+  margin-left:140px;
+    margin-top:20px;
+color: #2D4A91;
 }
 
 .contentchicken{
   font-size: 20px;
-  top:1500px;
-left: 400px;
-position:absolute;
-color: #f6a288;
+  position:relative;
+  margin-left:140px;
+    margin-top:20px;
+color: #2D4A91;
 }
 
 
 .pastry {
-   position:absolute;
-   top:10px;
-   left:100px;
+   position:relative;
+   margin-left:140px;
+    margin-top:-1000px;
+    width:16%;
 }
 
 .pastrytitle{
   font-size: 30px;
-  top:30px;
-left: 500px;
-position:absolute;
-color: #f6a288;
+  position:relative;
+   margin-left:540px;
+   padding-top:-900px;
+color: #2D4A91;
 }
 
 .contentpastry{
-  font-size: 15px;
-  top:80px;
-left: 500px;
-position:absolute;
-color: #f6a288;
+  font-size: 20px;
+position:relative;
+   margin-left:440px;
+   margin-top:-320px;
+color: #2D4A91;
 }
 
 .square {
@@ -135,3 +133,29 @@ top:1650px;
 left:100px;
 position:absolute;
 } 
+
+.squarelink{
+ /* height: 380px;
+  width: 380px;
+  background-color: #FF9E82;
+transform: rotate(45deg);
+top:1670px;
+position:absolute;
+}
+
+.square2link{
+  height: 380px;
+  width: 380px;
+  background-color: #FF9E82;
+transform: rotate(45deg);
+top:1670px;
+position:absolute;*/
+}
+
+.back{
+  font-size:20px;
+  top:1600px;
+ right:150px;
+position:absolute;
+color:#2d4a91;
+}
