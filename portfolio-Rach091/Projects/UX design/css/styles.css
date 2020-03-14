@@ -1,0 +1,279 @@
+
+
+.UXMENU{
+background-image: url("backgroundwhite.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-10;
+  width:100%;
+  height:100vh;
+}
+
+.merain{
+  position:relative;
+  margin-left:140px;
+    margin-top:100px;
+}
+
+.title{
+  font-size:70px;
+  color:#2d4a91;
+   margin-left:740px;
+    margin-top:-500px;
+}
+
+.backgroundrain{
+background-image: url("background 2-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-10;
+  width:100%;
+  height:100vh;
+}
+
+.Whatthis{
+  font-size:50px;
+  color:#112046;
+  top:1000px;
+left:580px;
+position:absolute;
+}
+
+.content{
+  font-size:18px;
+  color:#f3dfcb;
+  top:1160px;
+left:200px;
+position:absolute;
+text-align: left;
+}
+
+.backgroundUX{
+background-image: url("backgroundwp.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-10;
+  width:100%;
+  height:100vh;
+}
+
+.whiterain{
+animation animation-duration: 50s;
+animation-iteration-count: infinite;
+background-repeat: repeat;
+  position:relative;
+  margin-left:140px;
+    margin-top:300px;
+
+}
+
+.blackrain{
+animation animation-duration: 50s;
+animation-iteration-count: infinite;
+background-repeat: repeat;
+  position:relative;
+  margin-left:580px;
+    margin-top:-400px;
+
+}
+
+.coderain{
+animation animation-duration: 50s;
+animation-iteration-count: infinite;
+background-repeat: repeat;
+ position:relative;
+  margin-left:980px;
+    margin-top:-400px;
+}
+
+
+
+.backgroundcode{
+background-image: url("backgroundwhite.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-10;
+  width:100%;
+  height:100vh;
+}
+.gamemaker{
+   position:relative;
+  margin-left:380px;
+    margin-top:-100px;
+}
+
+.Utopia{
+  font-size:100px;
+  color:#2D4A91
+  position:relative;
+  margin-left:980px;
+    margin-top:-400px;
+}
+
+
+.back{
+  font-size:20px;
+  top:800px;
+ right:150px;
+position:absolute;
+color:#112046;
+}
+
+
+.backgroundutopia{
+background-image: url("background 3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-10;
+  width:100%;
+  height:100vh;
+}
+
+.Whatthiss{
+  font-size:50px;
+  color:#112046;
+  position:relative;
+  margin-left:380px;
+    margin-top:-100px;
+}
+
+.contentlol{
+  font-size:18px;
+  color:#f3dfcb;
+  position:relative;
+  margin-left:380px;
+    padding-top:-200px;
+text-align: left;
+}
+
+
+
+
+
+.btc{
+  font-size:50px;
+  color:#f6a288;
+  top:3500px;
+left:580px;
+position:absolute;
+}
+
+.bg{
+  background-image: url("backgroundwp.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-10;
+  width:100%;
+  height:100vh;
+}
+.toolbox{
+  position:relative;
+  margin-left:380px;
+    padding-top:-200px;
+}
+.adobe{
+  position:relative;
+  margin-left:780px;
+    margin-top:-400px;
+    font-size:30px;
+    color:#FAE5D4;
+}
+
+.contenttoolbox{ 
+font-size:18px;
+  color:#f3dfcb;
+  position:relative;
+  margin-left:380px;
+    padding-top:-200px;
+text-align: left;
+}
+ 
+.bg2{
+  background-image: url("background 3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-10;
+  width:100%;
+  height:100vh;
+} 
+
+.sketchnote{
+font-size:18px;
+  color:#f3dfcb;
+  position:relative;
+  margin-left:380px;
+    padding-top:-200px;
+text-align: left;
+}
+
+.linz{
+align-content: center;
+}
+
+.sketchy{
+  font-size:100px;
+  color:#f3dfcb;
+  position:relative;
+  margin-left:380px;
+    padding-top:-200px;
+}
+
+
+
+
+
+
+
+
+.figma{
+  font-size:30px;
+  position:relative;
+  margin-top:40px;
+padding-left:700px;
+color:#041D50;
+}
+
+.figma2{
+  font-size:30px;
+  position:relative;
+  margin-top:-100px;
+padding-left:700px;
+color:#041D50;
+}
+
+
+
+.pic1{
+top:4300px;
+left: 500px;
+position:absolute;
+
+}
+
+.dw{
+position:relative;
+  margin-left:380px;
+    padding-top:400px;
+
+}
+
+.lol{
+  font-size:100px;
+  color:#f3dfcb;
+  top:3300px;
+left:900px;
+position:absolute;
+}
+
+
+
+
+
+.backgrounddw{
+background-image: url("background 2-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-10;
+  width:100%;
+  height:100vh;
+}

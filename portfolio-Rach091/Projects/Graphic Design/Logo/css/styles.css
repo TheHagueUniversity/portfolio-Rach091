@@ -1,0 +1,147 @@
+body {
+  
+  margin: 0;
+  padding: 0;
+}
+
+.background1 {
+ background-image: url("background1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-10;
+  width:100%;
+  height:100vh;
+}
+
+.background2 {
+ background-image: url("backgroundwp.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-10;
+  width:100%;
+  height:100vh;
+}
+ 
+ .livi {
+   position:relative;
+   margin-left:100px;
+   margin-top:120px;
+   width:20%;
+}
+
+.livititle{
+  font-size: 30px;
+   position:relative;
+   margin-left:100px;
+   margin-top:20px;
+color: #f6a288;
+}
+
+.livicontent{
+  font-size: 20px;
+  position:relative;
+   margin-left:100px;
+   margin-top:50px;
+color: #f6a288;
+}
+
+
+.laurensiacup {
+  position:relative;
+   margin-left:300px;
+   padding-top:100px;
+   transform: rotate(90deg);
+    width:20%;
+}
+
+.lautitle{
+  font-size: 30px;
+  position:relative;
+   margin-left:300px;
+   padding-top:100px;
+color: #f6a288;
+}
+
+.laucontent{
+  font-size: 15px;
+  position:relative;
+   margin-left:300px;
+   padding-top:10px;
+color: #f6a288;
+}
+
+
+.laurensiacup2 {
+   position:relative;
+   margin-left:100px;
+   margin-top:50px;
+    width:20%;
+}
+
+.chicken {
+   position:relative;
+   margin-left:140px;
+    margin-top:50px;
+    width:15%;
+}
+
+.chickentitle{
+  font-size: 30px;
+  position:relative;
+  margin-left:140px;
+    margin-top:20px;
+color: #2D4A91;
+}
+
+.contentchicken{
+  font-size: 20px;
+  position:relative;
+  margin-left:140px;
+    margin-top:20px;
+color: #2D4A91;
+}
+
+
+.pastry {
+   position:relative;
+   margin-left:140px;
+    margin-top:-1000px;
+    width:16%;
+}
+
+.pastrytitle{
+  font-size: 30px;
+  position:relative;
+   margin-left:540px;
+   padding-top:-900px;
+color: #2D4A91;
+}
+
+.contentpastry{
+  font-size: 20px;
+position:relative;
+   margin-left:440px;
+   margin-top:-320px;
+color: #2D4A91;
+}
+
+.square {
+height: 380px;
+  width: 380px;
+  background-color: #2d4a91;
+top:1650px;
+left:100px;
+position:absolute;
+} 
+
+.squarelink{
+ 
+}
+
+.back{
+  font-size:20px;
+  top:1600px;
+ right:150px;
+position:absolute;
+color:#2d4a91;
+}

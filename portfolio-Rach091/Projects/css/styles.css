@@ -1,0 +1,92 @@
+
+
+.backgroundproject{
+background-image: url("project background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-10;
+  width:100%;
+  height:100vh;
+}
+
+
+.square {
+  height: 380px;
+  width: 380px;
+  background-color: #FF9E82;
+transform: rotate(45deg);
+top:80px;
+left:100px;
+position:absolute;
+margin:0;
+  }
+
+  .squarelink{
+ /* height: 380px;
+  width: 380px;
+  background-color: #FF9E82;
+transform: rotate(45deg);
+top:1670px;
+position:absolute;
+}
+
+.square2link{
+  height: 380px;
+  width: 380px;
+  background-color: #FF9E82;
+transform: rotate(45deg);
+top:1670px;
+position:absolute;*/
+}
+.back{
+  font-size:20px;
+  top:800px;
+ right:150px;
+position:absolute;
+color:#2d4a91;
+}
+ .square2 {
+  height: 380px;
+  width: 380px;
+  background-color: #FF9E82;
+transform: rotate(315deg);
+top:335px;
+left:400px;
+position:absolute;
+  }
+
+  .UXDesign{
+  font-size:50px;
+}
+
+.GraphicDesign{
+  font-size:50px;
+}
+
+.Photography{
+  font-size:50px;
+}
+
+.projects{
+  font-size:50px;
+}
+
+   .square3 {
+  height: 380px;
+  width: 380px;
+  background-color: #FF9E82;
+transform: rotate(45deg);
+top:335px;
+left:1000px;
+position:absolute;
+  }
+
+   .square4 {
+  height: 380px;
+  width: 380px;
+  background-color: #FF9E82;
+transform: rotate(315deg);
+top:80px;
+left:700px;
+position:absolute;
+  }
