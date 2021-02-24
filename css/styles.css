@@ -4,11 +4,14 @@ html{scroll-behavior: smooth;}
 
 body{
   padding:0;
- 
 }
 
 header {
- background:url("bkg1.png");
+  padding:0;
+}
+
+.background1 {
+  background:url("bkg1.png");
   background-repeat: no-repeat;
   background-size: cover;
   z-index:-10;
@@ -16,25 +19,57 @@ header {
   height:100vh;
 }
 
-h1{
-  position:relative;
+.grid-containertitle{
+  display: grid;
+  grid-template-columns: repeat(2fr);
+  margin: 0;
+  padding: 0;
+}
+
+.titlename{
+  grid-template-columns: repeat(2fr);
+  margin: 0;
+  padding: 0;
+}
+
+.takealook{
+position:relative;
    font-size: 80px;
 padding-top:400px;
 padding-left:600px;
+color::#112046;
+}
+
+.subtitle{
+   margin-left:140px;
+margin-top:-300px;
+  padding: 10px 0;
+  font-size: 30px;
 }
 
 .atmyport{
 	position:relative;
    font-size: 35px;
-   margin-left:600px;
+   margin-left:-830px;
+   margin-top:230px;
  }
+
+.chibipic {
+  margin-left:140px;
+margin-top:0px;
+  padding: 10px 0;
+  font-size: 30px;
+}
 
 .chibi{
   position:relative;
-    margin-left:140px;
+    margin-left:110px;
     margin-top:-600px;
     width:29%;
 }
+
+/* header 1st  */
+
 
 .grid-container{
   display: grid;
