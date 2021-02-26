@@ -6,8 +6,14 @@ body{
   padding:0;
 }
 
+/*start of 1st header - TAKE A look at my portfolio*/
 header {
   padding:0;
+}
+
+h2{
+padding-left:1300px;
+  position:relative;
 }
 
 .background1 {
@@ -58,7 +64,7 @@ margin-top:-300px;
   margin-left:140px;
 margin-top:0px;
   padding: 10px 0;
-  font-size: 30px;
+  
 }
 
 .chibi{
@@ -68,26 +74,13 @@ margin-top:0px;
     width:29%;
 }
 
-/* header 1st  */
+/*End of 1st header- TAKE A look at my portfolio*/
 
+/*start of 2nd section- My perks n abilities*/
 
-.grid-container{
-  display: grid;
-  color:red;
-  grid-template-columns: repeat(2fr);
-  margin: 0;
-  padding: 0;
+section{
+  padding:0;
 }
-
-.item1{
-margin-left:140px;
-margin-top:-300px;
-  padding: 10px 0;
-  font-size: 30px;
-  color:black;
-}
-
-/* about me */
 
 .background2 {
   background:url("bkg2.png");
@@ -99,33 +92,9 @@ margin-top:-300px;
   padding:0px;
 }
 
-.introduction{
-  position:relative;
-  padding-top: 450px;
-}
+/* about me */
 
-.item2{
-margin-left:550px;
-margin-top:-280px;
-  padding: 10px 0;
-}
-
-.me{
-  position:relative;
-  width:30%;
-}
-
-.perks{
-  position:relative;
-  padding-top: 650px;
-}
-
-
-h2{
-padding-left:1300px;
-  position:relative;
-}
-.grid-container{
+.grid-containerintro{
   display: grid;
   color:red;
   grid-template-rows: repeat(3fr);
@@ -133,42 +102,165 @@ padding-left:1300px;
   padding: 0;
 }
 
-.item3{
-margin-left:1050px;
-margin-top:-1180px;
+.intro{
+margin-left:550px;
+margin-top:-280px;
   padding: 10px 0;
 }
+
+.introduction{
+  position:relative;
+  margin-top:550px;
+  margin-left:-450px;
+  font-size:25px;
+  color:black;
+}
+
+.linkcv{
+  margin-left:550px;
+margin-top:-280px;
+  padding: 10px 0;
+}
+
+.linktocv{
+  position:relative;
+  margin-top:250px;
+  margin-left:-450px;
+  font-size:20px;
+}
+
+.drawingme{
+margin-left:350px;
+margin-top:-300px;
+}
+
+.me{
+  position:relative;
+  width:30%;
+  margin-left:130px;
+}
+
+/* my perks */
+
+.grid-containertitle2{
+  grid-template-columns: repeat(2fr);
+  margin: 0;
+  padding: 0;
+}
+
+.titleperks{
+margin-left:-300px;
+margin-top:-500px;
+}
+
+.perks{
+  position:relative;
+  margin-top:-150px;
+  margin-left:60px;
+  font-size:30px;
+}
+
+.grid-container2{
+  display: grid;
+  color:black;
+  grid-template-columns: repeat(3fr);
+  margin: 0;
+  padding: 0;
+}
+
+/* active listener */
+
+.perks1{
+  margin-left:140px;
+  margin-top:400px;
+}
+
+.eartext{
+margin-left:140px;
+margin-top:-300px;
+  font-size:20px;
+  color:black;
+}
+
 .ear{
   position:relative;
-  width:40%;
+    margin-left:500px;
+    margin-top:-900px;
+    width:8%;
 }
-.perks1{
-  position:relative;
-  width:40%;
+
+/* eyefor detail */
+
+.perks2{
+  margin-left:420px;
+margin-top:-700px;
+  font-size:20px;
+  color:black;
+}
+
+.eyetext{
+  margin-left:140px;
+  margin-top:400px;
 }
 
 .eye{
   position:relative;
-  width:40%;
-}
-.perks2{
-  position:relative;
-  width:40%;
-}
-.stairs{
-  position:relative;
-  width:40%;
-}
-.perks3{
-  position:relative;
-  width:40%;
+    margin-left:500px;
+    margin-top:-900px;
+    width:8%;
 }
 
-.item4{
-margin-left:1350px;
-margin-top:-280px;
+/* ambitous  */
+
+.perks3{
+margin-left:420px;
+margin-top:-700px;
+  font-size:20px;
+  color:black;
+}
+
+.stairstext{
+  position:relative;
+  margin-left:840px;
+  margin-top:400px;
+}
+
+.stairs{
+  position:relative;
+margin-left:60px;
+    margin-top:-900px;
+    width:30%;
+}
+
+/* my abilities */
+
+.grid-containertitle3{
+  grid-template-columns: repeat(2fr);
+  margin: 0;
+  padding: 0;
+}
+
+.titleabilities{
+margin-left:-250px;
+margin-top:-180px;
   padding: 10px 0;
 }
+
+.grid-container3{
+  display: grid;
+  color:black;
+  grid-template-columns: repeat(3fr);
+  margin: 0;
+  padding: 0;
+}
+
+.ability1{
+margin-left:420px;
+margin-top:-700px;
+  font-size:20px;
+  color:black;
+}
+
 .doodle{
   position:relative;
   width:50%;
@@ -177,6 +269,16 @@ margin-top:-280px;
 .pen{
   position:relative;
   width:50%;
+}
+
+
+
+
+.ability2{
+margin-left:420px;
+margin-top:-700px;
+  font-size:20px;
+  color:black;
 }
 
 .language{
@@ -189,6 +291,15 @@ margin-top:-280px;
   width:50%;
 }
 
+
+
+.ability3{
+margin-left:420px;
+margin-top:-700px;
+  font-size:20px;
+  color:black;
+}
+
 .adobe{
   position:relative;
   width:50%;
@@ -198,6 +309,7 @@ margin-top:-280px;
   position:relative;
   width:50%;
 }
+
 
 /* main menu */
 
