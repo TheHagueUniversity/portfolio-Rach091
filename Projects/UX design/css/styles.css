@@ -1,4 +1,7 @@
-
+*{
+  margin: 0;
+  padding: 0;
+}
 
 .UXMENU{
 background-image: url("backgroundwhite.png");
@@ -9,17 +12,63 @@ background-image: url("backgroundwhite.png");
   height:100vh;
 }
 
-.merain{
+.grid-container1{
+  display: grid;
+  grid-template-columns: repeat(2fr);
+  margin: 0;
+  padding: 0;
+}
+
+.picrain{
+  margin-right:100px;
+margin-top:60px;
+  }
+
+  .merain{
   position:relative;
   margin-left:140px;
     margin-top:100px;
 }
 
+.title1{
+  margin-right:100px;
+margin-top:60px;
+  
+}
+
 .title{
-  font-size:70px;
+  font-size:100px;
   color:#2d4a91;
    margin-left:740px;
     margin-top:-500px;
+    font-family: 'Tangerine', cursive;
+}
+
+.description1{
+  margin-right:100px;
+margin-top:-10px;
+  padding: 10px 0;
+}
+
+.context1{
+margin-left:600px;
+margin-top:-370px;
+  padding: 10px 0;
+  font-size:20px;
+  color:#041d50;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.linkback{
+  font-size:20px;
+   margin-left:1240px;
+    margin-top:-100px;
+    font-family: 'Ubuntu', sans-serif;
+    color:#112046;
+}
+
+.back{
+color:#112046;
 }
 
 .backgroundrain{
@@ -31,21 +80,41 @@ background-image: url("background 2-1.png");
   height:100vh;
 }
 
+.grid-container2{
+  display: grid;
+  grid-template-columns: repeat(2fr);
+  margin: 0;
+  padding: 0;
+}
+
+.title2{
+  margin-right:100px;
+  margin-left:100px;
+margin-top:160px;
+text-align:center;
+  }
+
 .Whatthis{
   font-size:50px;
   color:#112046;
-  top:1000px;
-left:580px;
-position:absolute;
+position:relative;
+font-family: 'Ubuntu', sans-serif;
 }
 
 .content{
-  font-size:18px;
-  color:#f3dfcb;
-  top:1160px;
-left:200px;
-position:absolute;
-text-align: left;
+  font-size:22px;
+  color:#315ea6;
+position:relative;
+text-align: center;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.description2{
+  margin-right:100px;
+  margin-left:100px;
+margin-top:100px;
+  padding: 10px 0;
+  position:center;
 }
 
 .backgroundUX{
@@ -57,23 +126,32 @@ background-image: url("backgroundwp.png");
   height:100vh;
 }
 
+.grid-container3{
+  display: grid;
+  grid-template-columns: repeat(2fr);
+  margin: 0;
+  padding: 0;
+}
+
+
 .whiterain{
 animation animation-duration: 50s;
 animation-iteration-count: infinite;
 background-repeat: repeat;
   position:relative;
-  margin-left:140px;
-    margin-top:300px;
+  margin-left:100px;
+    margin-top:210px;
 
 }
+
 
 .blackrain{
 animation animation-duration: 50s;
 animation-iteration-count: infinite;
 background-repeat: repeat;
   position:relative;
-  margin-left:580px;
-    margin-top:-400px;
+  margin-left:520px;
+    margin-top:-510px;
 
 }
 
@@ -82,11 +160,9 @@ animation animation-duration: 50s;
 animation-iteration-count: infinite;
 background-repeat: repeat;
  position:relative;
-  margin-left:980px;
-    margin-top:-400px;
+  margin-left:930px;
+    margin-top:-700px;
 }
-
-
 
 .backgroundcode{
 background-image: url("backgroundwhite.png");
@@ -96,29 +172,53 @@ background-image: url("backgroundwhite.png");
   width:100%;
   height:100vh;
 }
+
+.grid-container4{
+  display: grid;
+  grid-template-columns: repeat(2fr);
+  margin: 0;
+  padding: 0;
+}
+
+.picutopia{
+  margin-left:500px;
+margin-top:-110px;
+  }
+
 .gamemaker{
    position:relative;
   margin-left:380px;
     margin-top:-100px;
 }
 
+.title3{
+  margin-left:170px;
+margin-top:60px;
+position:relative;
+font-family: 'Press Start 2P', cursive;
+  }
+
 .Utopia{
-  font-size:100px;
+  font-size:95px;
   color:#2D4A91
-  position:relative;
   margin-left:980px;
     margin-top:-400px;
 }
 
-
-.back{
-  font-size:20px;
-  top:800px;
- right:150px;
-position:absolute;
-color:#112046;
+.description3{
+  margin-left:170px;
+margin-top:80px;
+  padding: 10px 0;
 }
 
+.context2{
+margin-left:5px;
+margin-top:-320px;
+  padding: 10px 0;
+  font-size:20px;
+  color:#041d50;
+  font-family: 'Nunito', sans-serif;
+}
 
 .backgroundutopia{
 background-image: url("background 3.png");
@@ -129,144 +229,42 @@ background-image: url("background 3.png");
   height:100vh;
 }
 
+.grid-container5{
+  display: grid;
+  grid-template-columns: repeat(2fr);
+  margin: 0;
+  padding: 0;
+}
+
+.title4{
+  margin-right:100px;
+margin-top:160px;
+text-align:center;
+  }
+
 .Whatthiss{
   font-size:50px;
-  color:#112046;
+  color:#f79d83;
   position:relative;
-  margin-left:380px;
-    margin-top:-100px;
+    margin-top:-10px;
+    position:center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.description4{
+ margin-left:200px;
+ margin-right:200px;
+  position:center;
+  margin-top:100px;
 }
 
 .contentlol{
   font-size:18px;
   color:#f3dfcb;
   position:relative;
-  margin-left:380px;
-    padding-top:-200px;
-text-align: left;
+position:center;
+font-family: 'Nunito', sans-serif;
 }
-
-
-
-
-
-.btc{
-  font-size:50px;
-  color:#f6a288;
-  top:3500px;
-left:580px;
-position:absolute;
-}
-
-.bg{
-  background-image: url("backgroundwp.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index:-10;
-  width:100%;
-  height:100vh;
-}
-.toolbox{
-  position:relative;
-  margin-left:380px;
-    padding-top:-200px;
-}
-.adobe{
-  position:relative;
-  margin-left:780px;
-    margin-top:-400px;
-    font-size:30px;
-    color:#FAE5D4;
-}
-
-.contenttoolbox{ 
-font-size:18px;
-  color:#f3dfcb;
-  position:relative;
-  margin-left:380px;
-    padding-top:-200px;
-text-align: left;
-}
- 
-.bg2{
-  background-image: url("background 3.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index:-10;
-  width:100%;
-  height:100vh;
-} 
-
-.sketchnote{
-font-size:18px;
-  color:#f3dfcb;
-  position:relative;
-  margin-left:380px;
-    padding-top:-200px;
-text-align: left;
-}
-
-.linz{
-align-content: center;
-}
-
-.sketchy{
-  font-size:100px;
-  color:#f3dfcb;
-  position:relative;
-  margin-left:380px;
-    padding-top:-200px;
-}
-
-
-
-
-
-
-
-
-.figma{
-  font-size:30px;
-  position:relative;
-  margin-top:40px;
-padding-left:700px;
-color:#041D50;
-}
-
-.figma2{
-  font-size:30px;
-  position:relative;
-  margin-top:-100px;
-padding-left:700px;
-color:#041D50;
-}
-
-
-
-.pic1{
-top:4300px;
-left: 500px;
-position:absolute;
-
-}
-
-.dw{
-position:relative;
-  margin-left:380px;
-    padding-top:400px;
-
-}
-
-.lol{
-  font-size:100px;
-  color:#f3dfcb;
-  top:3300px;
-left:900px;
-position:absolute;
-}
-
-
-
 
 
 .backgrounddw{
@@ -277,3 +275,225 @@ background-image: url("background 2-1.png");
   width:100%;
   height:100vh;
 }
+
+.grid-container6{
+  display: grid;
+  grid-template-columns: repeat(2fr);
+  margin: 0;
+  padding: 0;
+}
+
+.pic1{
+position:absolute;
+  margin-left:50px;
+    margin-top:180px;
+}
+
+.pic2{
+position:absolute;
+  margin-left:600px;
+    margin-top:200px;
+}
+
+.pic3{
+position:absolute;
+  margin-left:1150px;
+    margin-top:210px;
+}
+
+.pic4{
+position:absolute;
+  margin-left:50px;
+    margin-top:480px;
+}
+
+.pic5{
+position:absolute;
+  margin-left:650px;
+    margin-top:480px;
+}
+
+.pic6{
+position:absolute;
+  margin-left:1150px;
+  margin-top:480px;
+}
+
+.title5{
+  margin-right:100px;
+margin-top:50px;
+text-align:center;
+font-family: 'Nunito', sans-serif;
+  }
+
+.figma{
+font-size:30px;
+position:absolute;
+margin-top:40px;
+color:#041D50;
+}
+
+.title6{
+margin-right:100px;
+margin-top:60px;
+text-align:center;
+font-family: 'Nunito', sans-serif;
+}
+
+.figma2{
+  font-size:30px;
+  position:absolute;
+  margin-top:-100px;
+color:#041D50;
+}
+
+.bg{
+  background-image: url("backgroundwp.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-10;
+  width:100%;
+  height:100vh;
+}
+
+.grid-container7{
+  display: grid;
+  grid-template-columns: repeat(2fr);
+  margin: 0;
+  padding: 0;
+}
+
+.description5{
+ margin-left:600px;
+ margin-right:300px;
+  position:center;
+  margin-top:600px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.contenttoolbox{ 
+font-size:18px;
+  color:#f3dfcb;
+  position:absolute;
+text-align: left;
+}
+
+.pictoolbox{
+  margin-left:-200px;
+margin-top:-500px;
+  }
+
+.toolbox{
+  position:absolute;
+  margin-left:380px; 
+  margin-top:100px; 
+}
+
+.adobe{
+  position:absolute;
+  margin-left:780px;
+    margin-top:400px;
+    font-size:70px;
+    color:#FAE5D4;
+        font-family: 'Tangerine', cursive;
+}
+
+.bg2{
+  background-image: url("background 3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-10;
+  width:100%;
+  height:100vh;
+}
+
+.grid-container8{
+  display: grid;
+  grid-template-columns: repeat(2fr);
+  margin: 0;
+  padding: 0;
+}
+
+.description6{
+ margin-left:800px;
+ margin-right:300px;
+  position:center;
+  margin-top:250px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.sketchnote{
+font-size:18px;
+  color:#f3dfcb;
+  position:relative;
+  margin-left:380px;
+    padding-top:-200px;
+text-align: left;
+}
+
+ .piclinz{
+  margin-left:220px;
+margin-top:-110px;
+  }
+
+.linz{
+position:absolute;
+}
+
+.title7{
+margin-left:600px;
+margin-top:60px;
+text-align:right;
+font-family: 'Nunito', sans-serif;
+ color:#f79d83;
+ font-size:50px;
+}
+
+.sketchy{
+  font-size:100px;
+  color:#f79d83;
+  position:relative;
+  margin-left:600px;
+    margin-top:300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

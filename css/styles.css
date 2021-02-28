@@ -2,6 +2,11 @@
 html{scroll-behavior: smooth;}
 *{box-sizing: inherit;}
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body{
   padding:0;
 }
@@ -41,9 +46,9 @@ padding-left:1300px;
 .takealook{
 position:relative;
    font-size: 80px;
-padding-top:400px;
-padding-left:600px;
 color::#112046;
+margin-top:500px;
+margin-left:600px;
 }
 
 .subtitle{
@@ -57,12 +62,12 @@ margin-top:-300px;
 	position:relative;
    font-size: 35px;
    margin-left:-830px;
-   margin-top:230px;
+   margin-top:310px;
  }
 
 .chibipic {
-  margin-left:140px;
-margin-top:0px;
+  margin-left:50px;
+margin-top:200px;
   padding: 10px 0;
   
 }
@@ -255,20 +260,22 @@ margin-top:-180px;
 }
 
 .ability1{
-margin-left:420px;
-margin-top:-700px;
+margin-left:620px;
+margin-top:800px;
   font-size:20px;
   color:black;
 }
 
 .doodle{
   position:relative;
-  width:50%;
+
 }
 
 .pen{
-  position:relative;
-  width:50%;
+  position:absolute;
+  width:20%;
+  margin-left:240px;
+  margin-top:-700px;
 }
 
 
@@ -276,7 +283,7 @@ margin-top:-700px;
 
 .ability2{
 margin-left:420px;
-margin-top:-700px;
+margin-top:500px;
   font-size:20px;
   color:black;
 }
@@ -287,8 +294,10 @@ margin-top:-700px;
 }
 
 .bilingual{
-  position:relative;
-  width:50%;
+  position:absolute;
+  width:20%;
+  margin-left:640px;
+  margin-top:-1200px;
 }
 
 
@@ -306,8 +315,10 @@ margin-top:-700px;
 }
 
 .adobeicon{
-  position:relative;
-  width:50%;
+  position:absolute;
+  width:20%;
+   margin-left:810px;
+  margin-top:-430px;
 }
 
 
@@ -330,6 +341,7 @@ transform: rotate(45deg);
 top:1790px;
 left:100px;
 position:absolute;
+padding-top:100px;
 
   }
 

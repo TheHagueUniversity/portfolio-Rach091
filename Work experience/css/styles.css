@@ -1,9 +1,16 @@
 html{scroll-behavior: smooth;}
 *{box-sizing: inherit;}
 
-header{
-
+*{
+  margin: 0;
+  padding: 0;
 }
+
+body{
+  margin:0;
+}
+
+
 
 .h3{
   color:#f3dfcb;
