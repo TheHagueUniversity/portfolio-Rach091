@@ -5,6 +5,12 @@ header{
   margin:0;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
 .backgroundphoto{
 background-image: url("Photography.png");
   background-repeat: no-repeat;
@@ -14,65 +20,108 @@ background-image: url("Photography.png");
   height:100vh;
 }
 
-.picture{	
-position:relative;
-transform: rotate(0deg);
-width:100%;
-margin-top:20px;
-margin-left:40px;
+.grid-container1{
+  display: grid;
+  grid-template-columns: repeat(2fr);
+  margin: 0;
+  padding: 0;
 }
 
-.picture2{  
-position:relative;
-transform: rotate(358deg);
-width:23%;
-padding-top:30px;
-padding-left:600px;
+.description1{
+  margin-right:100px;
+margin-top:100px;
+  padding: 10px 0;
+  text-align:right;
+  font-family: 'Ubuntu', sans-serif;
 }
-
-.picture3{  
-
-position:relative;
-transform: rotate(345deg);
-width:68%;
-padding-top:400px;
-padding-left:600px;
-
-}
-
-
-
-
-.square {
-  height: 245px;
-  width: 325px;
-  background-color: #F3dfcb;
-transform: rotate(15deg);
-padding-top:100px;
-margin-left:250px;
-position:relative;
-  }
-
-  .square1 {
-  height: 310px;
-  width: 330px;
-  background-color: #F3dfcb;
-transform: rotate(345deg);
-top:86px;
-left:1010px;
-position:absolute;
-  }
-
-
-
 
 .text{
   font-size: 25px;
   color:112046;
-  top:630px;
+  top:700px;
 left:60px;
 position:absolute;
+font-family: 'Ubuntu', sans-serif;
  }
+
+
+.grid-container2{
+  display: grid;
+  grid-template-columns: repeat(2fr);
+  margin: 0;
+  padding: 0;
+}
+
+.pic1{
+  margin-right:100px;
+margin-top:60px;
+   
+}
+
+.square {
+  height: 290px;
+  width: 400px;
+  background-color: #F3dfcb;
+transform: rotate(15deg);
+margin-left:160px;
+margin-top:5px;
+position:absolute;
+  }
+
+.picture{	
+position:absolute;
+transform: rotate(0deg);
+width:98%;
+margin-top:20px;
+margin-left:5px;
+}
+
+.grid-container3{
+  display: grid;
+  grid-template-columns: repeat(2fr);
+  margin: 0;
+  padding: 0;
+}
+
+.picture2{  
+position:absolute;
+transform: rotate(358deg);
+width:23%;
+margin-top:160px;
+margin-left:650px;
+}
+
+.grid-container4{
+  display: grid;
+  grid-template-columns: repeat(2fr);
+  margin: 0;
+  padding: 0;
+}
+
+.pic3{
+  margin-right:100px;
+margin-top:60px; 
+}
+
+.square1 {
+  height: 300px;
+  width: 380px;
+  background-color: #F3dfcb;
+transform: rotate(345deg);
+margin-left:1180px;
+margin-top:5px;
+position:absolute;
+  }
+
+
+.picture3{  
+position:absolute;
+transform: rotate(360deg);
+width:96%;
+margin-top:-65px;
+margin-left:20px;
+
+}
 
 .back{
   font-size:20px;
@@ -82,10 +131,25 @@ position:absolute;
 color:#f3dfcb;
 }
 
+
+.grid-container5{
+  display: grid;
+  grid-template-columns: repeat(2fr);
+  margin: 0;
+  padding: 0;
+}
+
+.description2{
+  margin-right:100px;
+margin-top:-10px;
+  padding: 10px 0;
+  text-align:right;
+}
 .seemore{
   font-size: 25px;
   color:112046;
   top:730px;
-left:1200px;
+left:1180px;
 position:absolute;
+font-family: 'Ubuntu', sans-serif;
 }

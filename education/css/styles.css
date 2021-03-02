@@ -2,6 +2,10 @@
 html{scroll-behavior: smooth;}
 *{box-sizing: inherit;}
 
+*{
+  margin: 0;
+  padding: 0;
+}
 header{
 
 }
@@ -28,14 +32,14 @@ padding-left:100px;
 
 .seniorhigh{
   position:relative;
-  margin-top:-20px;
+  margin-top:30px;
 padding-left:100px;
 font-size:35px;
 }
 
 .slhs{
   position:relative;
-margin-top:-45px;
+margin-top:-25px;
 padding-left:100px;
 font-size:25px;
 }
@@ -51,7 +55,7 @@ padding-left:100px;
 
 .uxd{
   position:relative;
-margin-top:-40px;
+margin-top:-25px;
 padding-left:100px;
 font-size:25px;
 }
@@ -67,7 +71,7 @@ padding-left:100px;
 
 .graphic{
    position:relative;
-margin-top:-40px;
+margin-top:-25px;
 padding-left:100px;
 font-size:25px;
 }
@@ -76,6 +80,6 @@ font-size:25px;
   font-size:20px;
 position:relative;
 color:#f3dfcb;
-margin-top:-20px;
+margin-top:50px;
 padding-left:100px;
 }
