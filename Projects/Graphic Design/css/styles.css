@@ -16,8 +16,8 @@ background-image: url("background 3.png");
 
 
 .square {
-  height: 380px;
-  width: 380px;
+  height: 370px;
+  width: 370px;
   background-color: #FF9E82;
 transform: rotate(45deg);
 top:80px;
@@ -44,8 +44,8 @@ position:absolute;*/
 }
 
  .square2 {
-  height: 380px;
-  width: 380px;
+  height: 370px;
+  width: 370px;
   background-color: #FF9E82;
 transform: rotate(315deg);
 top:335px;
@@ -61,24 +61,28 @@ position:absolute;
 color:#f3dfcb;
 }
   .logo{
-  font-size:50px;
+  font-size:80px;
+font-family: 'Reenie Beanie', cursive;
 }
 
 .GraphicDesign{
-  font-size:50px;
+  font-size:80px;
+  font-family: 'Reenie Beanie', cursive;
 }
 
 .illustration{
-  font-size:50px;
+  font-size:80px;
+  font-family: 'Reenie Beanie', cursive;
 }
 
 .Poster{
-  font-size:50px;
+  font-size:80px;
+  font-family: 'Reenie Beanie', cursive;
 }
 
    .square3 {
-  height: 380px;
-  width: 380px;
+  height: 370px;
+  width: 370px;
   background-color: #FF9E82;
 transform: rotate(45deg);
 top:335px;
@@ -87,8 +91,8 @@ position:absolute;
   }
 
    .square4 {
-  height: 380px;
-  width: 380px;
+  height: 370px;
+  width: 370px;
   background-color: #FF9E82;
 transform: rotate(315deg);
 top:80px;

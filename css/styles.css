@@ -136,6 +136,7 @@ margin-top:-280px;
   margin-top:250px;
   margin-left:-450px;
   font-size:20px;
+  font-family: 'Nunito', sans-serif;
 }
 
 .drawingme{
@@ -349,7 +350,7 @@ margin-top:-100px;
   width: 380px;
   background-color: #FF9E82;
 transform: rotate(45deg);
-top:1790px;
+top:1865px;
 left:100px;
 position:absolute;
 
@@ -360,7 +361,7 @@ position:absolute;
   width: 380px;
   background-color: #FF9E82;
 transform: rotate(315deg);
-top:2100px;
+top:2150px;
 left:400px;
 position:absolute;
   }
@@ -370,7 +371,7 @@ position:absolute;
   width: 380px;
   background-color: #FF9E82;
 transform: rotate(45deg);
-top:1800px;
+top:1850px;
 left:690px;
 position:absolute;
   }
@@ -380,27 +381,27 @@ position:absolute;
   width: 380px;
   background-color: #FF9E82;
 transform: rotate(315deg);
-top:2100px;
+top:2150px;
 left:990px;
 position:absolute;
   }
 
   .education{
-  font-size:50px;
-
+  font-size:80px;
+font-family: 'Reenie Beanie', cursive;
 }
 .Workexperience{
-  font-size:50px;
-
+  font-size:80px;
+font-family: 'Reenie Beanie', cursive;
 }
 .Contact{
-  
-font-size:50px;
+  font-family: 'Reenie Beanie', cursive;
+font-size:80px;
 }
 
 .projects{
- font-size:50px;
-
+ font-size:80px;
+font-family: 'Reenie Beanie', cursive;
 }
 
 

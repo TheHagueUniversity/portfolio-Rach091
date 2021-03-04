@@ -14,14 +14,15 @@ background-image: url("project background.png");
 
 
 .square {
-  height: 380px;
-  width: 380px;
+  height: 370px;
+  width: 370px;
   background-color: #FF9E82;
 transform: rotate(45deg);
 top:80px;
 left:100px;
 position:absolute;
 margin:0;
+
   }
 
   .squarelink{
@@ -43,40 +44,44 @@ position:absolute;*/
 }
 .back{
   font-size:20px;
-  top:800px;
+  top:700px;
  right:150px;
 position:absolute;
 color:#2d4a91;
 }
  .square2 {
-  height: 380px;
-  width: 380px;
+  height: 370px;
+  width: 370px;
   background-color: #FF9E82;
 transform: rotate(315deg);
-top:335px;
+top:320px;
 left:400px;
 position:absolute;
   }
 
   .UXDesign{
-  font-size:50px;
+  font-size:80px;
+  font-family: 'Reenie Beanie', cursive;
 }
 
 .GraphicDesign{
-  font-size:50px;
+  font-size:80px;
+  font-family: 'Reenie Beanie', cursive;
 }
 
 .Photography{
-  font-size:50px;
+  font-size:80px;
+  font-family: 'Reenie Beanie', cursive;
 }
 
 .projects{
-  font-size:50px;
+  font-size:80px;
+  font-family: 'Reenie Beanie', cursive;
 }
 
    .square3 {
-  height: 380px;
-  width: 380px;
+  height: 370px;
+  width: 370px;
   background-color: #FF9E82;
 transform: rotate(45deg);
 top:335px;
@@ -85,8 +90,8 @@ position:absolute;
   }
 
    .square4 {
-  height: 380px;
-  width: 380px;
+  height: 370px;
+  width: 370px;
   background-color: #FF9E82;
 transform: rotate(315deg);
 top:80px;
